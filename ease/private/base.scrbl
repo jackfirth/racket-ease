@@ -9,8 +9,8 @@
                     [num-steps real?])
          (listof real?)]{
   Returns a list of intermediate values between @racket[start] and @racket[stop].
-  The number of values is equal to @racket[num-steps], and the a difference between
-  successive values is determined by @racket[easing].
+  The number of values is equal to @racket[num-steps] plus one, and the difference
+  between successive values is determined by @racket[easing].
   @ease-examples[
     (ease-real linear-ease 0 100 5)
 ]}

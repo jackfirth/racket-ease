@@ -25,7 +25,7 @@ module+ test
 
 (define (range-n start stop num-steps)
   (define step (/ (- stop start) num-steps))
-  (range start stop step))
+  (range start (+ stop step) step))
 
 
 (define (ease-real easing start stop num-steps)
@@ -41,4 +41,4 @@ module+ test
 
 module+ test
   (check-equal? (ease-real linear-ease 0 5 5)
-                '(0 1 2 3 4))
+                '(0 1 2 3 4 5))
