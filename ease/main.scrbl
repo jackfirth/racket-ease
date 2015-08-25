@@ -15,3 +15,4 @@ source code: @url["https://github.com/jackfirth/racket-ease"]
 
 @scribble-include/no-subsection["private/base.scrbl"]
 @scribble-include/no-subsection["private/invert.scrbl"]
+@scribble-include/no-subsection["private/polynomial.scrbl"]
