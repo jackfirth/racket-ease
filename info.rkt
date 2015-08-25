@@ -10,6 +10,7 @@
 (define deps
   '("base"
     "sweet-exp"
+    "lens"
     "fancy-app"))
 
 
