@@ -12,7 +12,7 @@
   The number of values is equal to @racket[num-steps] plus one, and the difference
   between successive values is determined by @racket[easing].
   @ease-examples[
-    (ease-real linear-ease 0 100 5)
+    (ease-real linear-ease 0 100 4)
 ]}
 
 @deftogether[(@defthing[ease/c contract?]
@@ -34,7 +34,7 @@
   be proportionally smaller.
   @ease-examples[
     (define (quadratic-ease x) (* x x))
-    (ease-real quadratic-ease 0 100 5)
+    (ease-real quadratic-ease 0 100 4)
   ]
 
   An easing function that returns a number less than zero will cause
@@ -56,5 +56,5 @@
   step proportion and distance proportion. Equivalent to @racket[identity]
   with a more restrictive contract.
   @ease-examples[
-    (ease-real linear-ease 0 100 5)
+    (ease-real linear-ease 0 100 4)
 ]}

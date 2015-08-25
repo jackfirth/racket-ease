@@ -9,9 +9,9 @@
   @racket[degree]. When graphed, the resulting easing is a polynomial
   curve of the given degree.
   @ease-examples[
-    (ease-real (polynomial-ease 1) 0 1000 5)
-    (ease-real (polynomial-ease 2) 0 1000 5)
-    (ease-real (polynomial-ease 3) 0 1000 5)
+    (ease-real (polynomial-ease 1) 0 1000 4)
+    (ease-real (polynomial-ease 2) 0 1000 4)
+    (ease-real (polynomial-ease 3) 0 1000 4)
 ]}
 
 @defproc[(symmetric-polynomial-ease [degree (>/c 0)]) proper-ease/c]{

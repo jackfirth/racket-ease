@@ -4,6 +4,7 @@
   scribble/eval
   "scribble-include-no-subsection.rkt"
   (for-label ease
+             lens
              racket/base
              racket/contract))
 
@@ -12,6 +13,7 @@
  (all-from-out "scribble-include-no-subsection.rkt")
  (for-label
   (all-from-out ease
+                lens
                 racket/base
                 racket/contract)))
 
