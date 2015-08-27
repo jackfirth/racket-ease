@@ -8,14 +8,16 @@
 
 
 (define deps
-  '("base"
+  '("scribble-lib"
+    "base"
     "sweet-exp"
     "lens"
     "fancy-app"))
 
 
 (define build-deps
-  '("cover"
+  '("rackunit-lib"
+    "cover"
     "racket-doc"
     "scribble-lib"
     "doc-coverage"))
